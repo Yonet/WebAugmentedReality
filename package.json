@@ -1,0 +1,14 @@
+{
+  "name": "flashbackdemo",
+  "version": "1.0.0",
+  "description": "WebXR demo to showcase AR capabilities",
+  "scripts": {
+    "dev": "http-server -c-1 -p 4200\"",
+    "start": "npm run dev"
+  },
+  "author": "Aysegul Yonet",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.0"
+  }
+}
