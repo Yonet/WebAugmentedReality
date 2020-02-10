@@ -10,16 +10,6 @@
 </head>
 
 <body>
-	<form id="search">
-		<input id="query" value="poly" />
-		<button id="button">search</button>
-	</form>
-	<span id="results"></span>
-	<span id="viewer"></span>
-	<div id="info">
-		<span id="asset_name">Title</span><br />
-		by <span id="asset_author">Author</span>
-	</div>
 
 	<script type="module">
 
@@ -35,14 +25,8 @@
 		var controller;
 		var manager = new THREE.LoadingManager();
 		var loader = new GLTFLoader(manager).setPath('models/AyaSofia/');
-		var key = config.apiKey;
-		console.log('Key', key);
 
 
-		// var reticle;
-
-		// var hitTestSource;
-		// var hitTestSourceRequested = false;
 		var modelLoaded = false;
 
 		manager.onStart = function (url, itemsLoaded, itemsTotal) {
@@ -99,21 +83,13 @@
 			document.body.appendChild(ARButton.createButton(renderer));
 
 
-			var geometry = new THREE.CylinderBufferGeometry(0, 0.05, 0.2, 32).rotateX(Math.PI / 2);
 
 			function onSelect() {
-
-				var material = new THREE.MeshPhongMaterial({ color: 0xffffff * Math.random() });
-				var mesh = new THREE.Mesh(geometry, material);
-				mesh.position.set(0, 0, - 0.3).applyMatrix4(controller.matrixWorld);
-				mesh.quaternion.setFromRotationMatrix(controller.matrixWorld);
-				// scene.add(mesh);
 
 				if (!modelLoaded) {
 					loader.load('GM_poly.gltf', function (gltf) {
 						gltf.scene.children[0].position.set(0, 0, - 1).applyMatrix4(controller.matrixWorld);
 						console.log("gltf obj ", gltf);
-						// gltf.scene.scale.set({x:0.5, y: 0.5, z: 0.5});
 						scene.add(gltf.scene);
 						modelLoaded = true;
 
