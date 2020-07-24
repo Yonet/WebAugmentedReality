@@ -1,6 +1,7 @@
 {
   "name": "flashbackdemo",
   "version": "1.0.0",
+  "repository": {"url": "https://github.com/Yonet/Flashback2020"},
   "description": "WebXR demo to showcase AR capabilities",
   "scripts": {
     "dev": "http-server -c-1 -p 4200\"",
