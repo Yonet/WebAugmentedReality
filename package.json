@@ -9,6 +9,6 @@
   "author": "Aysegul Yonet",
   "license": "ISC",
   "devDependencies": {
-    "http-server": "^0.12.0"
+    "http-server": "^0.12.3"
   }
 }
