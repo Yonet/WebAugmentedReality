@@ -6,15 +6,17 @@ Slides: https://slides.com/aysegulyonet/flashback-2020
 
 ## Models
 
-
  - "[Church of St. Sofia](https://poly.google.com/view/13hUrQbMlAt)" by [CyArk Info](https://poly.google.com/user/4U4FhbhDQdR)
 
- ![Church of St. Sofia](images/ChurchofStSophia.gif)
+ 
+
+![Church of St. Sofia](images/ChurchofStSophia.gif)
 
  - "[Thomas Jeferson Memorial](https://poly.google.com/view/3uHfaa5Kmki)"  by [CyArk Info](https://poly.google.com/user/4U4FhbhDQdR)
 
- ![Thomas Jeferson Memorial](images/ThomasJeffersonMemorialUSA.gif)
+ 
 
+![Thomas Jeferson Memorial](images/ThomasJeffersonMemorialUSA.gif)
 
 ## Technology
 
@@ -26,17 +28,28 @@ Slides: https://slides.com/aysegulyonet/flashback-2020
 
 1. Install dependencies
 
-	```
-	npm install
-	```
+``` 
+npm install
+```
 
-2. Start the server
+2. Get [Poly API](https://developers.google.com/poly/develop/api) key and add create a config.js as in config.example.js. Add your API key to apiKey string value.
 
-	```
-    npm start
-	```
+``` js
+var config = {
+    apiKey: "Your Poly API key here!"
+}
+export {
+    config
+};
+```
 
-3. Navigate to [http://localhost:4200/](http://localhost:4200/)
+3. Start the server
+
+``` 
+npm start
+```
+
+4. Navigate to [http://localhost:4200/](http://localhost:4200/)
 
 ## Viewing on the browser
 
@@ -53,5 +66,4 @@ Slides: https://slides.com/aysegulyonet/flashback-2020
 * [Mixed Reality Resources](http://bit.ly/MixedRealityResources)
 * [Windows Mixed Reality Development](https://docs.microsoft.com/en-us/windows/mixed-reality/?WT.mc_id=flashback-github-ayyonet)
 * [WebXR APIs](https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API)
-* [ImmersiveWeb.Dev](https://immersiveweb.dev/)
-
+* [ImmersiveWeb. Dev](https://immersiveweb.dev/)
