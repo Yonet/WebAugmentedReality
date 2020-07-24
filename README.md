@@ -51,15 +51,17 @@ npm start
 
 4. Navigate to [http://localhost:4200/](http://localhost:4200/)
 
-## Viewing on the browser
+## Debugging on the mobile browser
 
-1. Download [Chrome Canary](https://www.google.com/chrome/canary/) or [Edge Canary](https://www.microsoftedgeinsider.com/en-us/download).
+1. Enable [Developer mode](https://developer.android.com/studio/debug/dev-options) on your mobile device.
 
-2. Enable WebXR experimental flags by navigating to [Chrome Flags](chrome://flags/) or [Edge Flags](edge://flags/).
+2. Download [Chrome Canary](https://www.google.com/chrome/canary/) or [Edge Canary](https://www.microsoftedgeinsider.com/en-us/download). Checkout [CanIUse.com](https://caniuse.com/#feat=webxr) for other browsers that support [WebXR Device API](https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API).
 
-![Chrome Flags](images/chromeFlags.png)
+3. Go to chrome://inspect/#devices and click on port forwarding. Add localhost:4200.
 
-![Edge Flags](images/edgeFlags.png)
+![Inspect Devices](images/portForwarding.png)
+
+![Port Forwarding](images/portForwardingEnabled.png)
 
 ## Other Resources
 
