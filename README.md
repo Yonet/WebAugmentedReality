@@ -1,8 +1,8 @@
-﻿# Flashback2020
+﻿# Web Augmented Reality
 
-Flashback Conference WebXR Demo.
+Getting Started with Augmented Reality Demo.
 
-Slides: https://slides.com/aysegulyonet/flashback-2020
+Slides:[bit.ly/WebARSlides](https://bit.ly/WebARSlides)
 
 ## Models
 
@@ -23,6 +23,7 @@ Slides: https://slides.com/aysegulyonet/flashback-2020
 * [three.js](https://threejs.org/): 3D library.
 * [WebXR Device API](https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API): is a group of standards which are used together to support rendering 3D scenes to hardware designed for presenting virtual worlds (virtual reality, or VR), or for adding graphical imagery to the real world, (augmented reality, or AR). 
 * [glTF](https://www.khronos.org/gltf/): 3D File format.
+* [Poly API](https://developers.google.com/poly)
 
 ## Running Locally
 
@@ -68,4 +69,4 @@ npm start
 * [Mixed Reality Resources](http://bit.ly/MixedRealityResources)
 * [Windows Mixed Reality Development](https://docs.microsoft.com/en-us/windows/mixed-reality/?WT.mc_id=flashback-github-ayyonet)
 * [WebXR APIs](https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API)
-* [ImmersiveWeb. Dev](https://immersiveweb.dev/)
+* [ImmersiveWeb.dev](https://immersiveweb.dev/)
