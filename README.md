@@ -24,10 +24,15 @@ Slides:[bit.ly/WebARSlides](https://bit.ly/WebARSlides)
 * [WebXR Device API](https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API): is a group of standards which are used together to support rendering 3D scenes to hardware designed for presenting virtual worlds (virtual reality, or VR), or for adding graphical imagery to the real world, (augmented reality, or AR). 
 * [glTF](https://www.khronos.org/gltf/): 3D File format.
 * [Poly API](https://developers.google.com/poly)
+* [NodeJS](https://nodejs.org/en/)
+* [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=github-xrteaparty-ayyonet)
 
 ## Running Locally
 
-1. Install dependencies
+1. Download NodeJS: https://nodejs.org/en/
+2. Install dependencies
+
+Open your terminal and navigate to folder for this project and type
 
 ``` 
 npm install
