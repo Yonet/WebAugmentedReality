@@ -2,7 +2,10 @@
 
 Getting Started with Augmented Reality Demo.
 
-Slides:[bit.ly/WebARSlides](https://bit.ly/WebARSlides)
+* Slides:[bit.ly/WebARSlides](https://bit.ly/WebARSlides)
+* Workshop Video:
+
+[![Workshop Video](http://img.youtube.com/vi/trQYd-HVoBg/0.jpg)](http://www.youtube.com/watch?v=trQYd-HVoBg)
 
 ## Models
 
