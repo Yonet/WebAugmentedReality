@@ -62,6 +62,8 @@ npm start
 
 ## Debugging on the mobile browser
 
+[![How to debug WebXR on Chrome Dev Tools Tutorial](http://img.youtube.com/vi/r-wSk24Wmpk/0.jpg)](https://www.youtube.com/watch?v=r-wSk24Wmpk)
+
 1. Enable [Developer mode](https://developer.android.com/studio/debug/dev-options) on your mobile device.
 
 2. Download [Chrome Canary](https://www.google.com/chrome/canary/) or [Edge Canary](https://www.microsoftedgeinsider.com/en-us/download). Checkout [CanIUse.com](https://caniuse.com/#feat=webxr) for other browsers that support [WebXR Device API](https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API).
