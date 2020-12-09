@@ -1,4 +1,4 @@
-﻿# Web Augmented Reality
+# Web Augmented Reality
 
 Getting Started with Augmented Reality Demo.
 
@@ -28,7 +28,7 @@ Getting Started with Augmented Reality Demo.
 * [glTF](https://www.khronos.org/gltf/): 3D File format.
 * [Poly API](https://developers.google.com/poly)
 * [NodeJS](https://nodejs.org/en/)
-* [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=github-xrteaparty-ayyonet)
+* [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=spatial-0000-ayyonet)
 
 ## Running Locally
 
@@ -77,6 +77,6 @@ npm start
 ## Other Resources
 
 * [Mixed Reality Resources](http://bit.ly/MixedRealityResources)
-* [Windows Mixed Reality Development](https://docs.microsoft.com/en-us/windows/mixed-reality/?WT.mc_id=flashback-github-ayyonet)
+* [Windows Mixed Reality Development](https://docs.microsoft.com/windows/mixed-reality/?WT.mc_id=spatial-0000-ayyonet)
 * [WebXR APIs](https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API)
 * [ImmersiveWeb.dev](https://immersiveweb.dev/)
