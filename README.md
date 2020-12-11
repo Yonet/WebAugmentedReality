@@ -28,7 +28,7 @@ Getting Started with Augmented Reality Demo.
 * [glTF](https://www.khronos.org/gltf/): 3D File format.
 * [Poly API](https://developers.google.com/poly)
 * [NodeJS](https://nodejs.org/en/)
-* [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=spatial-0000-ayyonet)
+* [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=aiml-0000-ayyonet)
 
 ## Running Locally
 
